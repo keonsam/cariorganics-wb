@@ -1,9 +1,21 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import App from './App';
+import {mount, shallow} from "enzyme";
+import {BrowserRouter as Router, MemoryRouter} from "react-router-dom";
+import {Dashboard} from "./Dashboard/dashboard";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('My App Router', () => {
+  test('Router to be defined', () => {
+    const wrapper = shallow(<App/>);
+    expect(wrapper.find(Router)).toHaveLength(1);
+  });
+
+  test('Router should go to dashboard', () => {
+    const wrapper = mount(
+        <MemoryRouter initialEntries={['/']}>
+          <App/>
+        </MemoryRouter>);
+    expect(wrapper.find(Dashboard)).toHaveLength(1);
+  });
 });
+
