@@ -1,0 +1,18 @@
+.header {
+    margin: 0;
+    background: var(--white-background, #FFFFFF);
+    padding: 35px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    color: var(--green-color, rgb(67, 176, 42));
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.header-icon {
+    color: var(--green-color, rgb(67, 176, 42));
+    font-size: 20px;
+}

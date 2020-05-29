@@ -6,6 +6,5 @@ describe('Product test', ()=> {
     test('Product to be defined', () => {
         const wrapper = shallow(<Product />);
         expect(wrapper).toHaveLength(1);
-        expect(wrapper.find('.product')).toHaveLength(1);
     });
 });

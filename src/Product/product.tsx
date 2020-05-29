@@ -4,6 +4,7 @@ export const Product: React.FC = (props) => {
 
     return (
         <div className="product">
+            Product
         </div>
     );
 };

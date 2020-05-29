@@ -8,9 +8,7 @@ function App() {
   return (
       <Router>
           <Switch>
-              <Route path='/' exact >
-                  <Redirect to={DASHBOARD}/>
-              </Route>
+              <Route path='/' exact render={() => <Redirect to={DASHBOARD}/>} />
               <Route path={DASHBOARD} component={Dashboard}/>
           </Switch>
       </Router>
