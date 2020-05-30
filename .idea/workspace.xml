@@ -5,20 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dashboard/dashboard.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard/dashboard.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dashboard/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard/dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product/product.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product/product.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product/product.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsList/products.list.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsList/products.list.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductsList/products.list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsList/products.list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TopMenu/top.menu.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopMenu/top.menu.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TopMenu/top.menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopMenu/top.menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducers.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +35,11 @@
     <property name="ts.external.directory.path" value="C:\Users\Keon\Desktop\Programming\cariorganics-wb\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Keon\Desktop\Programming\cariorganics-wb\src\images" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Keon\Desktop\Programming\cariorganics-wb\src\apollo" />
       <recent name="C:\Users\Keon\Desktop\Programming\cariorganics-wb\src\images" />
     </key>
   </component>
@@ -69,7 +59,9 @@
       <workItem from="1590578368721" duration="7165000" />
       <workItem from="1590596418003" duration="611000" />
       <workItem from="1590673878450" duration="1223000" />
-      <workItem from="1590751268280" duration="9644000" />
+      <workItem from="1590751268280" duration="11069000" />
+      <workItem from="1590849951382" duration="2290000" />
+      <workItem from="1590875055523" duration="2742000" />
     </task>
     <servers />
   </component>
@@ -81,9 +73,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="556" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1590406708578" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590751390445">
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590875054582">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590751390445" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590875054582" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1590876296058">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1590876296058" />
   </component>
 </project>
