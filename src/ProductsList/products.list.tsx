@@ -1,9 +1,10 @@
 import React from 'react';
+import {Container} from "semantic-ui-react";
 
 export const ProductsList: React.FC = () => {
     return (
-        <div>
-            Products
-        </div>
+        <Container>
+            Products Component
+        </Container>
     );
 };

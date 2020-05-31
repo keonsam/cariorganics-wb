@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88757c71-25cb-4df0-a6bd-e1ca4443af0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Menu/menu.bar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reducers.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dashboard/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dashboard/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/menu.bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/menu.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/menu.bar.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductsList/products.list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsList/products.list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopMenu/top.menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopMenu/top.menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopMenu/top.menu.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopMenu/top.menu.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopMenu/top.menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopMenu/top.menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/CariOrganics-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +72,9 @@
       <workItem from="1590673878450" duration="1223000" />
       <workItem from="1590751268280" duration="11069000" />
       <workItem from="1590849951382" duration="2290000" />
-      <workItem from="1590875055523" duration="2742000" />
+      <workItem from="1590875055523" duration="3042000" />
+      <workItem from="1590928127587" duration="3730000" />
+      <workItem from="1590936360299" duration="6544000" />
     </task>
     <servers />
   </component>
@@ -73,10 +86,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="556" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1590406708578" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590875054582">
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590936414742">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590875054582" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590936414742" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1590876296058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

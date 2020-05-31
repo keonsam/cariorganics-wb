@@ -1,3 +1,9 @@
 .dashboard {
     min-height: 100%;
 }
+
+.menus {
+    background: var(--white) !important;
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+}

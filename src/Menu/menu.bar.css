@@ -1,0 +1,8 @@
+.menu {
+    border-radius: 0 !important;
+}
+
+.green item:hover {
+    color: green;
+}
+

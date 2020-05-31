@@ -1,10 +1,10 @@
 import {shallow} from "enzyme";
 import React from "react";
-import {Menu} from "./menu";
+import {MenuBar} from "./menu.bar";
 
 describe('Menu', () => {
-    test('Menu should exist', () => {
-        const wrapper = shallow(<Menu />);
+    test('MenuBar should exist', () => {
+        const wrapper = shallow(<MenuBar />);
         expect(wrapper).toHaveLength(1);
     });
 });
