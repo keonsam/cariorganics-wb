@@ -17,7 +17,7 @@ export const Dashboard: React.FC = () => {
               <MenuBar />
           </Segment>
 
-          <Segment>
+          <Segment vertical className="body">
               <Switch>
                   <Route path={DASHBOARD} exact >
                       <Redirect to={PRODUCTS_LIST}/>

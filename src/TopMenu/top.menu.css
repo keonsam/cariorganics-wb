@@ -2,13 +2,7 @@
     margin: 0;
 }
 
-/*.header-logo {*/
-/*    color: var(--green-color, rgb(67, 176, 42));*/
-/*    margin: 0 auto;*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*.header-icon {*/
-/*    color: var(--green-color, rgb(67, 176, 42));*/
-/*    font-size: 20px;*/
-/*}*/
+.logo {
+    margin-top: 0 !important;
+    width: 4em !important;
+}

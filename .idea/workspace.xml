@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88757c71-25cb-4df0-a6bd-e1ca4443af0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Menu/menu.bar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dashboard/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard/dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dashboard/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard/dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/menu.bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/menu.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/menu.bar.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/menu.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProductsList/products.list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductsList/products.list.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TopMenu/top.menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopMenu/top.menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TopMenu/top.menu.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopMenu/top.menu.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TopMenu/top.menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopMenu/top.menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/CariOrganics-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +30,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Users\Keon\Desktop\Programming\cariorganics-wb\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Keon\Desktop\Programming\cariorganics-wb\src\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Keon\Desktop\Programming\cariorganics-wb\src\apollo" />
+      <recent name="C:\Users\Keon\Desktop\Programming\cariorganics-wb\src\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Keon\Desktop\Programming\cariorganics-wb\public" />
       <recent name="C:\Users\Keon\Desktop\Programming\cariorganics-wb\src\images" />
     </key>
   </component>
@@ -74,7 +65,9 @@
       <workItem from="1590849951382" duration="2290000" />
       <workItem from="1590875055523" duration="3042000" />
       <workItem from="1590928127587" duration="3730000" />
-      <workItem from="1590936360299" duration="6544000" />
+      <workItem from="1590936360299" duration="8265000" />
+      <workItem from="1590977958040" duration="3559000" />
+      <workItem from="1591021522040" duration="1850000" />
     </task>
     <servers />
   </component>
@@ -86,10 +79,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="556" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1590406708578" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590936414742">
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1591021525008">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590936414742" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1591021525008" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1591022255282">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1591022255282" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1590876296058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
