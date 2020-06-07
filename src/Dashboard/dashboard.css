@@ -1,5 +1,6 @@
 .dashboard {
-    min-height: 100%;
+    min-height: 100vh;
+    margin: 0 !important;
 }
 
 .menus {
@@ -10,4 +11,5 @@
 
 .body {
     padding-top: 8em !important;
+    min-height: calc(100vh - 120px);
 }

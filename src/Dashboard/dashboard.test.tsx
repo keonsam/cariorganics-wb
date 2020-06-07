@@ -2,31 +2,48 @@ import React from 'react';
 import {mount, shallow} from "enzyme";
 import {Dashboard} from "./dashboard";
 import {MemoryRouter} from "react-router-dom";
-import {ProductsList} from "../ProductsList/products.list";
-import {DASHBOARD, INFO, PRODUCTS_LIST, REQUEST} from "../routes";
+import {GET_PRODUCTS, Products} from "../Products/products";
+import {DASHBOARD, INFO, PRODUCTS, REQUEST} from "../routes";
 import {Request} from "../Request/request";
 import {Info} from "../Info/info";
+import {MockedProvider} from "@apollo/react-testing";
 
+const mocks = [
+    {
+        request: {
+            query: GET_PRODUCTS
+        },
+        result: {
+            data: {
+                getProducts: [ ],
+            },
+        },
+    },
+];
 describe('My App Router', () => {
     test('Dashboard to be defined', () => {
         const wrapper = shallow(<Dashboard/>);
         expect(wrapper).toHaveLength(1);
     });
 
-    test('Route should go to products list when route to dashboard', () => {
+    test('Route should go to products when route to dashboard', () => {
         const wrapper = mount(
             <MemoryRouter initialEntries={[DASHBOARD]}>
-                <Dashboard />
+                <MockedProvider mocks={mocks} addTypename={false}>
+                    <Dashboard />
+                </MockedProvider>
             </MemoryRouter>);
-        expect(wrapper.find(ProductsList)).toHaveLength(1);
+        expect(wrapper.find(Products)).toHaveLength(1);
     });
 
-    test('Route should go to products list when route to product list', () => {
+    test('Route should go to products when route to product list', () => {
         const wrapper = mount(
-            <MemoryRouter initialEntries={[PRODUCTS_LIST]}>
-                <Dashboard />
+            <MemoryRouter initialEntries={[PRODUCTS]}>
+                <MockedProvider mocks={mocks} addTypename={false}>
+                    <Dashboard />
+                </MockedProvider>
             </MemoryRouter>);
-        expect(wrapper.find(ProductsList)).toHaveLength(1);
+        expect(wrapper.find(Products)).toHaveLength(1);
     });
 
     test('Route should go to request', () => {
