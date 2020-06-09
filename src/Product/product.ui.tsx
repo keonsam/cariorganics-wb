@@ -1,4 +1,4 @@
-import React from "react";
+imgit port React from "react";
 import {IProduct} from "../Products/i.product";
 import {Card, Image} from "semantic-ui-react";
 import img from "../images/product.jpeg";

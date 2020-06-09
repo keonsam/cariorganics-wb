@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88757c71-25cb-4df0-a6bd-e1ca4443af0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product/product.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product/product.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product/product.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Products/products.error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products/products.error.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Products/products.loading.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products/products.loading.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Products/products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products/products.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Products/products.ui.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products/products.ui.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Products/products.ui.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products/products.ui.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="88757c71-25cb-4df0-a6bd-e1ca4443af0e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +63,7 @@
       <workItem from="1591467464109" duration="1609000" />
       <workItem from="1591540871392" duration="20883000" />
       <workItem from="1591713007654" duration="6766000" />
+      <workItem from="1591721909919" duration="225000" />
     </task>
     <servers />
   </component>
