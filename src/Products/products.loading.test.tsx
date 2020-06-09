@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow} from "enzyme";
 import {ProductsLoading} from "./products.loading";
-import {Dimmer, Loader} from "semantic-ui-react";
+import { Loader } from "semantic-ui-react";
 
 describe('Products Loading', () => {
     test('Products Loading to be defined', () => {

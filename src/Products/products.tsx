@@ -18,5 +18,6 @@ export const Products: React.FC = () => {
     const { loading, error, data } = useQuery(GET_PRODUCTS);
     if (loading) return <ProductsLoading />;
     if (error) return <ProductsError />;
-    return <ProductsUI />
+    const {getProducts: products} = data;
+    return <ProductsUI products={products}/>
 };
