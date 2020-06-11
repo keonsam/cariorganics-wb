@@ -1,10 +1,11 @@
 import React from "react";
-import {Container, Loader} from "semantic-ui-react";
+import {Loader} from "../loader/loader";
 
 export const ProductsLoading: React.FC = () => {
     return (
-        <Container>
-            <Loader size='huge' active>Loading Products</Loader>
-        </Container>
+        <div className="container flex flex-col justify-center items-center">
+            <Loader height="20" width="20"/>
+            <h3 className="mt-5 text-lg">Loading ...</h3>
+        </div>
     );
 };
