@@ -2,43 +2,29 @@ import React from "react";
 import './menu.bar.css';
 import { NavLink } from "react-router-dom";
 import {INFO, PRODUCTS, REQUEST} from "../routes";
-import {Button, Container, Icon, Menu} from "semantic-ui-react";
 
 export const MenuBar: React.FC = () => {
     return (
-        <Menu
-            pointing
-            secondary
-            size='large'
-            className="menu"
+        <nav
+            className="bg-white mt-2"
         >
-            <Container>
-                <Menu.Item
-                    name='Products'
-                    color="green"
-                    as={NavLink}
+            <div className="container flex space-x-3 font-normal">
+                <NavLink
                     to={PRODUCTS}
-                />
-                <Menu.Item
-                    name='Request'
-                    color="green"
-                    as={NavLink}
+                    className="navLink"
+                    activeClassName="active-navLink"
+                >Products</NavLink>
+                <NavLink
                     to={REQUEST}
-                />
-                <Menu.Item
-                    name='Info'
-                    color="green"
-                    as={NavLink}
+                    className="navLink"
+                    activeClassName="active-navLink"
+                >Request</NavLink>
+                <NavLink
                     to={INFO}
-                />
-                <Menu.Menu position="right">
-                    <Menu.Item>
-                        <Button icon color="green">
-                            <Icon name="cart" /> Cart
-                        </Button>
-                    </Menu.Item>
-                </Menu.Menu>
-            </Container>
-        </Menu>
+                    className="navLink"
+                    activeClassName="active-navLink"
+                >Info</NavLink>
+            </div>
+        </nav>
     );
 };

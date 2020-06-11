@@ -7,18 +7,16 @@ import {Products} from "../Products/products";
 import {MenuBar} from "../Menu/menu.bar";
 import {Request} from "../Request/request";
 import {Info} from "../Info/info";
-import {Container, Segment } from "semantic-ui-react";
 
 export const Dashboard: React.FC = () => {
 
     return (
-      <Container fluid className="dashboard">
-          <Segment vertical className="menus">
+      <div  className="h-screen flex flex-col">
+          <div className="bg-white pt-2">
               <TopMenu />
               <MenuBar />
-          </Segment>
-
-          <Segment vertical className="body">
+          </div>
+          <div className="pt-20 flex-1">
               <Switch>
                   <Route path={DASHBOARD} exact >
                       <Redirect to={PRODUCTS}/>
@@ -27,7 +25,7 @@ export const Dashboard: React.FC = () => {
                   <Route path={REQUEST} component={Request}/>
                   <Route path={INFO} component={Info}/>
               </Switch>
-          </Segment>
-      </Container>
+          </div>
+      </div>
     );
 };

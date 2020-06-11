@@ -1,6 +1,5 @@
 import React from "react";
 import {IProduct} from "./i.product";
-import {Container, Grid} from "semantic-ui-react";
 import {Product} from "../Product/product";
 
 interface Props {
@@ -8,14 +7,14 @@ interface Props {
 }
 export const ProductsUI: React.FC<Props> = ({products}) => {
     return (
-        <Container>
-            <Grid>
+        <div className="container">
+            <ul>
                 { products.map((v,i) => (
-                    <Grid.Column key={v.productId}>
+                    <li key={v.productId}>
                         <Product product={v}/>
-                    </Grid.Column>
+                    </li>
                 ))}
-            </Grid>
-        </Container>
+            </ul>
+        </div>
     );
 };

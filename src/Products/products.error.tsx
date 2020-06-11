@@ -1,5 +1,5 @@
 import React from "react";
-import {Container} from "semantic-ui-react";
 export const ProductsError: React.FC = () => {
-    return <Container>Something went wrong. Please try again.</Container>
+    return <div className="container text-lg font-medium text-center text-red-500">Something went wrong. Please try again.
+    </div>
 };

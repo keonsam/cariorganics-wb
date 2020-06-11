@@ -1,8 +1,7 @@
-.menu {
-    border-radius: 0 !important;
+.navLink {
+    @apply text-lg font-normal font-normal;
 }
 
-.green item:hover {
-    color: green;
+.active-navLink {
+    @apply border-b-2 border-green-400;
 }
-
