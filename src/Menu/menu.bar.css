@@ -1,7 +1,1 @@
-.navLink {
-    @apply text-lg font-normal font-normal;
-}
 
-.active-navLink {
-    @apply border-b-2 border-green-400;
-}
