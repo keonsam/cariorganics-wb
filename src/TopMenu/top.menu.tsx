@@ -7,11 +7,13 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 export const TopMenu: React.FC = () => {
     return (
         <div className="container flex items-center">
-            <img src={logo} className="w-20 h-10 mr-3"/>
-            <h1 className="text-green-400 text-3xl">CariOrganics</h1>
-            <div className="ml-auto rounded-full flex items-center justify-center p-3 bg-gray-200">
-                <FontAwesomeIcon icon={faShoppingCart} className="text-green-400 text-xl"/>
-            </div>
+            <img src={logo} className="w-10 h-5 mr-2"/>
+            <h1 className="text-green-600 text-2xl font-normal">CariOrganics</h1>
+            <button
+                className="focus:outline-none ml-auto rounded-full flex items-center justify-center p-3 hover:bg-gray-100"
+            >
+                <FontAwesomeIcon icon={faShoppingCart} className="text-green-600 text-xl"/>
+            </button>
         </div>
     );
 };

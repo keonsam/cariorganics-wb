@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './fontawesome';
+import 'typeface-roboto';
 
 // @ts-ignore
 ReactDOM.render(

@@ -4,27 +4,23 @@ import { NavLink } from "react-router-dom";
 import {INFO, PRODUCTS, REQUEST} from "../routes";
 
 export const MenuBar: React.FC = () => {
+    const routes = [
+        {name: 'Products', path: PRODUCTS},
+        {name: 'Request', path: REQUEST},
+        {name: 'Info', path: INFO},
+    ];
+
     return (
         <nav
-            className="bg-white mt-2"
+            className="mt-2 container flex space-x-4 "
         >
-            <div className="container flex space-x-3 font-normal">
-                <NavLink
-                    to={PRODUCTS}
-                    className="navLink"
-                    activeClassName="active-navLink"
-                >Products</NavLink>
-                <NavLink
-                    to={REQUEST}
-                    className="navLink"
-                    activeClassName="active-navLink"
-                >Request</NavLink>
-                <NavLink
-                    to={INFO}
-                    className="navLink"
-                    activeClassName="active-navLink"
-                >Info</NavLink>
-            </div>
+            { routes.map( x => {
+                return <NavLink
+                        to={x.path}
+                        className="text-lg font-medium text-gray-500"
+                        activeClassName="border-b-2 border-green-400 text-green-400"
+                    >{x.name}</NavLink>
+            })}
         </nav>
     );
 };
