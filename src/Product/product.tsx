@@ -1,9 +1,13 @@
 import React from 'react';
+import {IProduct} from "../Products/i.product";
+import {ProductUI} from "./product.ui";
 
-export const Product: React.FC = (props) => {
+interface Props {
+    product: IProduct
+}
+export const Product: React.FC<Props> = ({product}) => {
 
     return (
-        <div className="product">
-        </div>
+        <ProductUI product={product}/>
     );
 };
