@@ -3,6 +3,7 @@ import App from './App';
 import {mount, shallow} from "enzyme";
 import {BrowserRouter as Router, MemoryRouter} from "react-router-dom";
 import {Dashboard} from "./Dashboard/dashboard";
+import {Authentication} from "./Authentication/authentication";
 
 describe('My App Router', () => {
   test('Router to be defined', () => {
@@ -10,12 +11,20 @@ describe('My App Router', () => {
     expect(wrapper.find(Router)).toHaveLength(1);
   });
 
-  test('Router should go to dashboard', () => {
+  test('Router should go to authentication', () => {
     const wrapper = mount(
         <MemoryRouter initialEntries={['/']}>
           <App/>
         </MemoryRouter>);
-    expect(wrapper.find(Dashboard)).toHaveLength(1);
+    expect(wrapper.find(Authentication)).toHaveLength(1);
   });
+
+    test('Router should go to dashboard', () => {
+        const wrapper = mount(
+            <MemoryRouter initialEntries={['/']}>
+                <App/>
+            </MemoryRouter>);
+        expect(wrapper.find(Dashboard)).toHaveLength(1);
+    });
 });
 

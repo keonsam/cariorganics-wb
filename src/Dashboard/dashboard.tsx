@@ -16,7 +16,7 @@ export const Dashboard: React.FC = () => {
               <TopMenu />
               <MenuBar />
           </div>
-          <div className="pt-20 flex-1">
+          <div className="mt-5 flex-1">
               <Switch>
                   <Route path={DASHBOARD} exact >
                       <Redirect to={PRODUCTS}/>

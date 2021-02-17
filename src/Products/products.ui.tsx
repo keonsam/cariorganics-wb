@@ -8,9 +8,9 @@ interface Props {
 export const ProductsUI: React.FC<Props> = ({products}) => {
     return (
         <div className="container">
-            <ul>
+            <ul className="grid grid-cols-none gap-1">
                 { products.map((v,i) => (
-                    <li key={v.productId}>
+                    <li key={v.productId} className="w-48">
                         <Product product={v}/>
                     </li>
                 ))}

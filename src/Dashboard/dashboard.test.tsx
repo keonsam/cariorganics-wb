@@ -20,7 +20,7 @@ const mocks = [
         },
     },
 ];
-describe('My App Router', () => {
+describe('Dashboard', () => {
     test('Dashboard to be defined', () => {
         const wrapper = shallow(<Dashboard/>);
         expect(wrapper).toHaveLength(1);
